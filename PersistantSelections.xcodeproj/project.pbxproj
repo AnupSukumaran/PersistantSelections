@@ -16,6 +16,7 @@
 		5A07D42C1FBDC538004862D6 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A07D42A1FBDC538004862D6 /* CustomCell.xib */; };
 		5A07D42E1FBDC6CE004862D6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07D42D1FBDC6CE004862D6 /* Model.swift */; };
 		5A07D4301FBDC7C6004862D6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07D42F1FBDC7C6004862D6 /* ViewModel.swift */; };
+		5A156FDF20AEE503003F746D /* GotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A156FDE20AEE503003F746D /* GotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5A07D42A1FBDC538004862D6 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		5A07D42D1FBDC6CE004862D6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5A07D42F1FBDC7C6004862D6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5A156FDE20AEE503003F746D /* GotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				5A07D4171FBDC234004862D6 /* AppDelegate.swift */,
 				5A07D4191FBDC235004862D6 /* ViewController.swift */,
+				5A156FDE20AEE503003F746D /* GotoViewController.swift */,
 				5A07D41B1FBDC235004862D6 /* Main.storyboard */,
 				5A07D41E1FBDC235004862D6 /* Assets.xcassets */,
 				5A07D4201FBDC235004862D6 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A07D41A1FBDC235004862D6 /* ViewController.swift in Sources */,
+				5A156FDF20AEE503003F746D /* GotoViewController.swift in Sources */,
 				5A07D4301FBDC7C6004862D6 /* ViewModel.swift in Sources */,
 				5A07D42B1FBDC538004862D6 /* CustomCell.swift in Sources */,
 				5A07D4181FBDC234004862D6 /* AppDelegate.swift in Sources */,

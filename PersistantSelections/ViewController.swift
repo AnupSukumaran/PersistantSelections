@@ -36,6 +36,10 @@ class ViewController: UIViewController {
         
         tableView.reloadData()
         print("selectesd = \(viewModel.selectedItems.map{$0.title})")
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "GotoViewController") as! GotoViewController
+        
+        present(vc, animated: true, completion: nil)
     }
     
     
